@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+  .footer{
+      text-align: center;
+  }
+}
